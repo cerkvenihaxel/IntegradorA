@@ -33,7 +33,18 @@ function getCountryNameByIso3(isoCode){
  * @returns {Object}
  */
 function getCountrySummary(isoCode){
-    //complete with your code
+
+    const country = getCountryNameByIso3(isoCode); //reutilizamos el código del primer ejercicio
+    
+    console.log(country.name)
+    console.log(country.iso3)
+    console.log(country.iso2)
+    console.log(country.phone_code)
+    console.log(country.capital)
+    console.log(country.currency)
+    console.log(country.tld)
+    console.log(country.region)
+    console.log(country.emoji)
 }
 
 function main() {
